@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block body %}
+
+<h2>{{the_title}}</h2>
+
+<p>se inscreveu nesta data!:    </p>
+    <table>
+        <tr><td>Pharase:</td></td>{{ the_phrase }}</td></tr>
+        <tr><td>Letters:</td><td>{{ the_letters }}</td></tr>
+    </table>
+            <p>agora "{{ the_phrase }}" e com "{{ the_letters }}" segue conforme retorno</p>
+        <h3>{{ the_results }}</h3>
+{% endblock %}
